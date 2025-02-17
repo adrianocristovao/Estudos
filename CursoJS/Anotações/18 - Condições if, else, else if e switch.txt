@@ -1,0 +1,56 @@
+Aula 11 e 12
+
+Condição simples____________
+
+if (condição {
+	true
+}
+
+Condição composta___________
+
+if (condição) {
+	true
+} else {
+	false
+}
+
+Condição aninhada___________
+
+if (cond1) {
+	bloco 1
+} else {
+	if (cond2) {
+		bloco 2
+	} else {
+		bloco 3
+	}
+}
+
+ou
+
+if (cond1) {
+	bloco 1
+} else if (cond2) {
+		bloco 2
+} else {
+		bloco 3
+}
+
+Condição mútipla___________
+
+switch (expressão) {
+	case valor1:
+	break
+
+	case valor2:
+	break
+
+	case valor3:
+	break
+
+	default:
+	break
+}
+
+
+
