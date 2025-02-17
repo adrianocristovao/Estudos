@@ -1,0 +1,11 @@
+Aula 08
+
+média >= 7.0 ? 'Aprovado' : 'Reprovado'
+
+
+var idade = 19
+
+var r = idade >= 18 ? 'MAIOR' : 'MENOR'
+
+r
+> 'MAIOR'

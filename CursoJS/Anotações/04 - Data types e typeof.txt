@@ -1,0 +1,38 @@
+Aula 05
+
+Dada Types
+
+number
+	Infinity
+	NaN
+string
+boolean
+null
+undefined
+object
+	array
+function
+
+Comando para ver o tipo de variável
+
+var n = 200
+typeof n
+> 'number'
+
+typeof 6
+> 'number'
+
+typeof '6'
+> 'string'
+
+typeof []
+> 'object'
+
+typeof {}
+> 'object'
+
+typeof {}
+> 'function'
+
+typeof undefined
+> 'undefined'

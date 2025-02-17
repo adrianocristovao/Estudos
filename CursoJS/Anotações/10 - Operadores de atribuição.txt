@@ -1,0 +1,27 @@
+Aula 07
+
+Auto atribuições
+
+var n = 3
+
+n = n + 4
+> '7'
+
+ou
+
+n += 4
+> '7'
+
+Incremento
+
+var x = 5
+
+x++
+> '6'
+
+ou
+
+++x
+> '6'
+
+pode ser --

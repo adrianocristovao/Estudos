@@ -1,0 +1,18 @@
+Aula 05
+
+Comentários
+
+HTML:
+<!-- Comentário -->
+
+CSS: 
+/* Comentário */
+
+JS:
+// Comentário
+
+/*
+Comentário
+Comentário
+Comentário
+*/

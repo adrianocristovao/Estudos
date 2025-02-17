@@ -1,0 +1,56 @@
+Aula 10
+
+<div id="area"
+onclick="clicar()"
+onmouseenter="entrar()"
+onmouseout="sair()"
+>
+
+<script>
+
+var a = window.document.getElementById('area')
+
+
+function clicar() {
+	a.innerText = 'Clicou'
+	a.style.background = 'red'
+}
+
+function entrar() {
+	a.innerText = 'Entrou'
+}
+
+function sair() {
+	a.innerText = 'Saiu'
+}
+
+</script>
+
+______
+
+ou usar listeners
+
+<div id="area">
+
+<script>
+
+var a = window.document.getElementById('area')
+
+a.addEventListener('click', clicar)
+a.addEventListener('mouseenter', entrar)
+a.addEventListener('moseout', sair)
+
+function clicar() {
+	a.innerText = 'Clicou'
+	a.style.background = 'red'
+}
+
+function entrar() {
+	a.innerText = 'Entrou'
+}
+
+function sair() {
+	a.innerText = 'Saiu'
+}
+
+</script>

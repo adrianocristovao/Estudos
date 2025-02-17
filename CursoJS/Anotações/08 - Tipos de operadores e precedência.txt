@@ -1,0 +1,15 @@
+Aula 07
+
+Operadores
+
+aritiméticos
+atribuição
+relacionais
+lógicos
+ternário
+
+Precendência
+
+1º) Aritiméticos () ** / ......
+2º) Relacionais > < >= ........
+3º) Lógicos ! && ||

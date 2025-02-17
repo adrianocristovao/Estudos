@@ -1,0 +1,25 @@
+Aula 06
+
+var s = 'JavaScript'
+
+s.length
+> '10'
+
+s.toUpperCase()
+> 'JAVASCRIPT'
+
+s.toLowerCase()
+> 'javascript'
+
+_______________
+
+var n1 = 1545.5
+
+n1.toFixed(2)
+> '1545.50'
+
+n1.tofixed(2).replace('.', ',')
+> '1545,50'
+
+n1.noLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+> 'R$ 1,1545.50'

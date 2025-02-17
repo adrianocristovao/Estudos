@@ -1,0 +1,9 @@
+Aula 09
+
+window.document.write(window.document.charset)
+> 'UTF-8'
+
+window.document.write(window.document.URL)
+> 'http://.............'
+
+

@@ -1,0 +1,16 @@
+Aula 07
+
+Os operadores aritiméticos seguem as regras da matemática
+
+** = elevado a
+%  = resto da divisão
+
+Pecedência
+
+1º) ()
+
+2º) **
+
+3º) * / %
+
+4º) + -

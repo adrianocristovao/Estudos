@@ -1,0 +1,28 @@
+Aula 06
+
+number + number = adição
+string + string = concatenação
+
+_____________________
+
+converter string para number:
+
+Number.parseInt(n)
+Number.parseFloat(n)
+Number(n)
+
+O number() automáticamente reconhece se é Int ou Float
+
+var n1 = Number(window.prompt('Digite um número: '))
+var n2 = Number(window.prompt('Digite outro número: '))
+var s = n1 + n2
+
+window.alert(`A soma dos valores é ${s}`)
+
+____________________
+
+
+Para converter number para string
+
+String(n)
+n.toString()

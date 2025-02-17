@@ -1,0 +1,22 @@
+Aula 09
+
+DOM - Document Object Model
+
+Árvore DOM
+
+    ______________window____________
+    |		    |              |
+location	document	history
+		    |
+	  _________html________
+	  |                   |
+	head                body	
+          |                   |
+  ________________            |
+  |              |            |
+meta           title          |
+                 _____________|___________
+                 |      |       |        |
+		h1	p	p	div
+				|
+			      strong

@@ -1,0 +1,22 @@
+Aula 08
+
+!	negação
+&&	conjunção (e)
+||	disjunção (ou)
+
+true && true	TRUE
+true && false	FALSE
+false && true	FALSE
+false && false	FALSE
+
+true || true	TRUE
+true || false	TRUE
+false || true	TRUE
+false || false	FALSE
+
+Precedência
+
+1º) !
+2º) &&
+3º) ||
+

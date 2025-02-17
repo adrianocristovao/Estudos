@@ -1,0 +1,10 @@
+Aula 05
+
+Indentificadores de variáveis em JS
+
+- Podem começar com letra, $ ou _
+- NÃO podem começar com numeros
+- É possível usar acentos e símbolos
+- Não podem conter espaços
+- Não podem ser palavras reservadas
+- Maiúsculas e minúsculas fazem diferença

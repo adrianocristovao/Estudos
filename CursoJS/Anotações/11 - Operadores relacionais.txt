@@ -1,0 +1,13 @@
+Aula 08
+
+5 > 2 		TRUE
+7 < 4		FALSE
+8 >= 8		TRUE
+9 <= 7		FALSE
+5 == 5 		TRUE
+4 != 4		FALSE
+
+5 == 5		TRUE
+5 == '5'	TRUE
+5 === '5'	FALSE
+5 === 5		TRUE
