@@ -1,0 +1,9 @@
+Exercicios JS
+
+var teste = document.createElement('<tag>')
+        teste.setAttribute('propriedade', 'valor da propriedade')
+
+exemplo
+
+var img = document.createElement('img')
+        img.setAttribute('id', 'foto')
