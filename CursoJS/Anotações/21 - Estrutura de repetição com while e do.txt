@@ -1,0 +1,14 @@
+Aula 13
+
+Estrutura de repetição com teste lógico no início
+
+var c = 1
+while (c <= 6) {
+	console.log('Olá')
+	c++
+}
+
+_____________
+
+Estrutura de repetição com teste lógico no final
+

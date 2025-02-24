@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p style="text-align: center">Essa imagem foi colocada pelo HTML</p>
+    <img src="foto-idoso-m.png" style="margin: auto; display: block;">
+
+    <div id="res">
+
+        <p style="text-align: center">Essa imagem foi colocada pelo JavaScript</p>
+
+    </div>
+
+    <script>
+        var img = document.createElement('img')
+
+        img.setAttribute('src', 'foto-bebe-f.png')
+        img.setAttribute('style', 'margin: auto; display: block;')
+
+        res.appendChild(img)
+
+        /* ou
+        document.body.appendChild(img)
+        mostra direto no body */
+
+    </script>
+
+</body>
+
+</html>

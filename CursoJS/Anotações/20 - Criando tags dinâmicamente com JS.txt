@@ -1,9 +1,18 @@
 Exercicios JS
 
-var teste = document.createElement('<tag>')
-        teste.setAttribute('propriedade', 'valor da propriedade')
+    <div id="res">
 
-exemplo
+    </div>
+    
+    <script>
+        var img = document.createElement('img')
 
-var img = document.createElement('img')
-        img.setAttribute('id', 'foto')
+        img.setAttribute('src', 'imagemexemplo.png')
+
+        res.appendChild(img)
+
+	/* ou
+	document.body.appendChild(img)
+	mostra direto no body */
+
+    </script>
