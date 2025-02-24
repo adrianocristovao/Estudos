@@ -5,3 +5,6 @@ window.confirm('Está gostando de JS?')
 window.prompt('Qual é seu nome?')
 window.write('Texto no documento')
 
+escrever no navegador:
+
+document.write('teste')
