@@ -1,15 +1,23 @@
-/* function contar() {
-    var inicio = document.getElementById('txtinicio').value
-    var fim = document.getElementById('txtfim').value
-    var passo = document.getElementById('txtpasso').value
-    var c = inicio
+function contar() {
+    var ini = Number(document.getElementById('txtinicio').value)
+    var fim = Number(document.getElementById('txtfim').value)
+    var pas = Number(document.getElementById('txtpasso').value)
 
-    for(c; c <= fim; c++) {
-        res.innerHTML += `Valor ${c} - `
-        c += passo
+    if (pas == 0) {
+        alert('Passo inválido! Considerando PASSO 1')
+        pas = 1
     }
-} */
 
-    for (var c = 1; c <= 10; c++) {
-        console.log(c)
+    if (ini == 0 || fim == 0 || pas == 0) {
+
+        res.innerHTML = 'Impossível contar!'
+
+    } else {
+        res.innerHTML = 'Contando: <br>'
+
+        for (ini; ini <= fim; ini += pas) {
+
+            res.innerHTML += `Valor ${ini} > `
+        }
     }
+}
