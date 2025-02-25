@@ -26,3 +26,11 @@ Para converter number para string
 
 String(n)
 n.toString()
+
+_____________________
+
+Converter dados de formulário para number
+
+let num = document.getElementById('txtn')
+
+let n = Number(num.value)
